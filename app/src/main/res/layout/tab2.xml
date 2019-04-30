@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+
+        <EditText
+            android:id="@+id/busc"
+            style="@style/et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:textSize="30sp"
+            android:layout_weight="20"
+            android:enabled="false"/>
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/re"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:backgroundTint="#ef9a9a"
+            android:src="@drawable/ic_refresh_black_24dp" />
+
+
+</android.support.v7.widget.LinearLayoutCompat>
+

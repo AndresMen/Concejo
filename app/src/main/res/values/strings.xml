@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Concejo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imag_pdf">Imagen pdf</string>
+    <string name="tipo">DOCUMENTO</string>
+    <string name="an">AÑO</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="aler">Imagen de alerta</string>
+</resources>

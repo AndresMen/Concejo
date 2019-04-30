@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp" >
+
+        <EditText
+            android:id="@+id/sptipo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/tipo"
+            android:gravity="center"
+            android:background="@drawable/edit_text_nor"
+            android:inputType="none"
+            android:clickable="true"
+            android:focusable="false" />
+
+        <EditText
+            android:id="@+id/spanio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/an"
+            android:gravity="center"
+            android:background="@drawable/edit_text_nor"
+            android:inputType="none"
+            android:clickable="true"
+            android:focusable="false"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/butac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aceptar"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/white"
+            android:background="#ef9a9a"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ayuda"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/white"
+            android:background="#ef9a9a"
+            android:layout_weight="3"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
